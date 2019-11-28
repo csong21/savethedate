@@ -7,7 +7,7 @@
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *	Edit this section
 *
 * ======================================================= */
@@ -108,7 +108,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #qbootstrap-header #navbar li a {
   font-family: "Source Sans Pro", Arial, sans-serif;
-  color: rgba(255, 255, 255, 0.5);
+  /* color: rgba(255, 255, 255, 0.5); */
+  color: #000000
   position: relative;
 }
 #qbootstrap-header #navbar li a span {
@@ -137,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 #qbootstrap-header #navbar li a:hover {
-  color: #fff;
+  color: #000000;
 }
 #qbootstrap-header #navbar li a:hover span:before {
   visibility: visible;
@@ -150,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-header #navbar li.active a {
   background: transparent;
   background: none;
-  color: #fff;
+  color: #000000;
 }
 #qbootstrap-header #navbar li.active a span:before {
   visibility: visible;
@@ -1685,3 +1686,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.main-text .main-picture {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 500px;
+  width: 800px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
