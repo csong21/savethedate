@@ -40,8 +40,15 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Clicker Script", cursive;
-  font-weight: 400;
+  /* font-family: "Clicker Script", cursive; */
+
+
+  /*font-family: "Reenie Beanie", reenie-beanie;*/
+  font-family: 'Cormorant Garamond', serif;
+
+  font-weight: 900;
+  font-size: 42px;
+
 }
 
 ::-webkit-selection {
@@ -109,6 +116,8 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-header #navbar li a {
   font-family: "Source Sans Pro", Arial, sans-serif;
   /* color: rgba(255, 255, 255, 0.5); */
+  /* son of a bitch!*/
+  font-family: 'Oranienbaum', serif;
   color: #000000
   position: relative;
 }
@@ -164,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 34px;
   padding-left: 0;
   color: #fff;
-  font-family: "Clicker Script", cursive;
+  /* font-family: "Clicker Script", cursive; */
 }
 #qbootstrap-header.navbar-fixed-top {
   position: fixed !important;
@@ -1692,8 +1701,8 @@ h1, h2, h3, h4, h5, h6 {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 500px;
-  width: 800px;
+  height: 400px;
+  width: 700px;
   margin-top: 150px;
   margin-left: auto;
   margin-right: auto;
