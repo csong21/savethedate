@@ -70,11 +70,13 @@ h1, h2, h3, h4, h5, h6 {
     /*This needs to fix the ordering the bullets*/
   position: absolute;
   /* width: 100%; */
-  width: 50%;
+  /*width: 50%;*/
   opacity: 1;
   top: 0;
+  right: 30%;
   margin-top: 20px;
 }
+
 @media screen and (max-width: 768px) {
   #qbootstrap-header {
     margin-top: 0;
