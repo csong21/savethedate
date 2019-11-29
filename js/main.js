@@ -261,7 +261,7 @@
 	$(function(){
 
 		burgerMenu();
-		testimonialCarousel();
+		//testimonialCarousel();
 		sliderMain();
 		clickMenu();
 		parallax();

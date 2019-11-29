@@ -68,13 +68,14 @@ h1, h2, h3, h4, h5, h6 {
 
 #qbootstrap-header {
     /*This needs to fix the ordering the bullets*/
-  position: absolute;
-  /* width: 100%; */
-  /*width: 50%;*/
-  opacity: 1;
-  top: 0;
-  right: 30%;
-  margin-top: 20px;
+    z-index: 99;
+    position: absolute;
+    /* width: 100%; */
+    /*width: 50%;*/
+    opacity: 1;
+    top: 0;
+    right: 30%;
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -291,29 +292,22 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 
-#qbootstrap-couple,
-#qbootstrap-countdown,
-#qbootstrap-groom-bride,
+#qbootstrap-bigday,
 #qbootstrap-story,
-#qbootstrap-people,
-#qbootstrap-when-where,
-#qbootstrap-started,
+#qbootstrap-travel,
 #qbootstrap-gallery,
-#qbootstrap-testimonials,
-#qbootstrap-press {
+#qbootstrap-story,
+#qbootstrap-rsvp {
   padding: 7em 0;
 }
 @media screen and (max-width: 480px) {
-  #qbootstrap-couple,
-  #qbootstrap-countdown,
-  #qbootstrap-groom-bride,
-  #qbootstrap-story,
-  #qbootstrap-people,
-  #qbootstrap-when-where,
-  #qbootstrap-started,
-  #qbootstrap-gallery,
-  #qbootstrap-testimonials,
-  #qbootstrap-press {
+    #qbootstrap-bigday,
+    #qbootstrap-story,
+    #qbootstrap-travel,
+    #qbootstrap-gallery,
+    #qbootstrap-story,
+    #qbootstrap-rsvp
+     {
     padding: 5em 0;
   }
 }
