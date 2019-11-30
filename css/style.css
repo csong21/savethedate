@@ -75,7 +75,8 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 1;
     top: 0;
     right: 30%;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    margin-top: 1%;
 }
 
 @media screen and (max-width: 768px) {
