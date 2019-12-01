@@ -256,11 +256,6 @@
 		$('.player').mb_YTPlayer();
 	};
 
-	var sendMail = function(){
-	  $(window).open('mailto:jamietmorton@gmail.com?subject=wedding invitations&body=We would love to attend your wedding!');
-
-	}
-
 
 	// Document on load.
 	$(function(){
@@ -274,7 +269,6 @@
 		navigationSection();
 		contentWayPoint();
 		inlineSVG();
-		sendMail();
 		bgVideo();
 	});
 
