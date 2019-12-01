@@ -274,6 +274,7 @@
 		navigationSection();
 		contentWayPoint();
 		inlineSVG();
+		sendMail();
 		bgVideo();
 	});
 
