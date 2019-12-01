@@ -2,14 +2,14 @@
 
 Below is the guest list, please add your information below
 
-To do so, create a pull request by clicking as shown below ![below](https://github.com/mortonjt/savethedate/blob/gh-pages/other/img/edit.png)
+To do so, create a pull request by clicking as shown below ![below](https://github.com/mortonjt/savethedate/blob/gh-pages/other/img/edit.png | width=100)
 
 You may have to first log into a github account.  If you don't have one, see [here](https://github.com/join).
 
 Then insert your name,  email name, and significant other's name (if you have a significant other) .  Below is an example of how to do this with an imaginary guest John Doe.
-![Below](https://github.com/mortonjt/savethedate/blob/gh-pages/other/img/insert.png)
+![Below](https://github.com/mortonjt/savethedate/blob/gh-pages/other/img/insert.png | width=100)
 
-Finally, submit a pull request as shown below ![below](https://github.com/mortonjt/savethedate/blob/gh-pages/other/img/pr.png)
+Finally, submit a pull request as shown below ![below](https://github.com/mortonjt/savethedate/blob/gh-pages/other/img/pr.png | width=100)
 
 # Guest List
 
