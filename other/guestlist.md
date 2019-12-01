@@ -1,4 +1,4 @@
-# Guest List
+# Submitting an RSVP
 
 Below is the guest list, please add your information below
 
@@ -9,12 +9,14 @@ Then insert your name,  email name, and significant other's name (if you have a 
 
 Finally, submit a pull request as shown below ![below](https://github.com/mortonjt/savethedate/blob/gh-pages/other/img/pr.png)
 
+# Guest List
 
 | Name	| Email	| Significant-Other |
 | ---   | ----- | ----------------- |
 | Jamie Morton	| jamietmorton@gmail.com | 	Juer Song |
 
+# Contact
+
+If you have any problems, not a problem!  Feel free to send an email to jamietmorton@gmail.com with your name, email and the name of your significant other.
 
 We look forward to seeing you!
-
-If you have any problems, feel free to send an email to jamietmorton@gmail.com with your name, email and name significant other.
