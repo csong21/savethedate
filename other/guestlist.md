@@ -3,7 +3,8 @@
 Below is the guest list, please add your information below
 
 To do so, create a pull request by clicking as shown below
-<img src="https://github.com/mortonjt/savethedate/blob/gh-pages/other/img/edit.png" width="400" >
+
+<img src="https://github.com/mortonjt/savethedate/blob/gh-pages/other/img/edit.png" width="600" >
 
 You may have to first log into a github account.  If you don't have one, see [here](https://github.com/join).
 
