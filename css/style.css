@@ -45,7 +45,6 @@ h1, h2, h3, h4, h5, h6 {
 
   /*font-family: "Reenie Beanie", reenie-beanie;*/
   font-family: 'Cormorant Garamond', serif;
-
   font-weight: 900;
   font-size: 42px;
 
@@ -67,16 +66,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #qbootstrap-header {
-    /*This needs to fix the ordering the bullets*/
-    z-index: 99;
     position: absolute;
-    /* width: 100%; */
-    /*width: 50%;*/
-    opacity: 1;
-    top: 0;
-    right: 30%;
-    /* margin-top: 20px; */
-    margin-top: 1%;
+  z-index: 99;
+  width: 100%;
+  opacity: 1;
+  top: 0;
+  margin-top: 20px;
+
 }
 
 @media screen and (max-width: 768px) {
@@ -119,12 +115,15 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 #qbootstrap-header #navbar li a {
-  font-family: "Source Sans Pro", Arial, sans-serif;
-  /* color: rgba(255, 255, 255, 0.5); */
+  /*font-family: "Source Sans Pro", Arial, sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
+  /*color: rgba(255, 255, 255, 0.5); */
   /* son of a bitch!*/
-  font-family: 'Oranienbaum', serif;
-  color: #000000;
+  /*font-family: 'Oranienbaum', serif;*/
+  /*color: #fff;*/
+  color: #fff;
   position: relative;
+  font-size: 16px;
 }
 #qbootstrap-header #navbar li a span {
   position: relative;
@@ -152,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 #qbootstrap-header #navbar li a:hover {
-  color: #000000;
+  color: rgba(228, 233, 237, 1);
 }
 #qbootstrap-header #navbar li a:hover span:before {
   visibility: visible;
@@ -165,7 +164,9 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-header #navbar li.active a {
   background: transparent;
   background: none;
-  color: #000000;
+  /*color: rgba(255, 255, 255, 0.5);*/
+  color: #fff;
+  font-size: 16px;
 }
 #qbootstrap-header #navbar li.active a span:before {
   visibility: visible;
@@ -191,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
 }
 #qbootstrap-header.navbar-fixed-top .navbar-brand {
-  color: #FF847C;
+  color: #fff;
 }
 #qbootstrap-header.navbar-fixed-top #navbar li a {
   color: rgba(0, 0, 0, 0.5);
@@ -202,6 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-header.navbar-fixed-top #navbar li a:hover {
   color: #FF847C;
 }
+
 #qbootstrap-header.navbar-fixed-top #navbar li.active a {
   background: transparent;
   background: none;
@@ -212,6 +214,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+
 #qbootstrap-header .navbar-default {
   border: transparent;
   background: transparent;
