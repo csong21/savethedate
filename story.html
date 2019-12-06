@@ -57,63 +57,6 @@ C<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-	<style>
-		* {box-sizing: border-box;}
-		body {font-family: Verdana, sans-serif;}
-		.mySlides {display: none;}
-		img {vertical-align: middle;}
-
-		/* Slideshow container */
-		.slideshow-container {
-		  max-width: 1000px;
-		  position: relative;
-		  margin: auto;
-		  text-align: center;
-		  margin-top: 100px
-		}
-
-		/* The dots/bullets/indicators */
-		.dot {
-		  height: 15px;
-		  width: 15px;
-		  margin: 0 2px;
-		  background-color: #bbb;
-		  border-radius: 50%;
-		  display: inline-block;
-		  transition: background-color 0.6s ease;
-		}
-
-		.active {
-		  background-color: #717171;
-		}
-
-		/* Fading animation */
-		.fade {
-		  -webkit-animation-name: fade;
-		  -webkit-animation-duration: 6s;
-		  animation-name: fade;
-		  animation-duration: 8s;
-		}
-
-		@-webkit-keyframes fade {
-		  from {opacity: .6} 
-		  to {opacity: 1}
-		  from {opacity: 1} 
-		  to {opacity: 0.6}
-		}
-
-		@keyframes fade {
-		  from {opacity: .6} 
-		  to {opacity: 1}
-
-		}
-
-		/* On smaller screens, decrease text size */
-		@media only screen and (max-width: 300px) {
-		  .text {font-size: 11px}
-		}
-	</style>
-
 	</head>
 	<body style="background-color:#F5F5F5;>
 	  <header role="banner" id="qbootstrap-header">
@@ -141,79 +84,9 @@ C<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 	    </div>
 	  </header>
 
-<!--<h2>Automatic Slideshow</h2>
-<p>Change image every 2 seconds:</p>-->
-
-<div class="col-md-12 text-center section-heading svg-sm-2">
-		  <center style="font-size:24px;font-style: bold; margin-top: 100px;">A LONG, LONG TIME AGO...</center
-		<div class="timeline-body">
-		<p>On September 1st, 1979, the Department of Physics of Nanjing University welcomed six girls. The six girls all lived in the same dorm, and as the only six girls in a class of fifty people, they were dubbed as the six flowers. Two of them - Ren Cheng and Yu Tong, soon became inseparable.
-
-		After graduation, the two best friends parted on different journeys. Ren moved to Xi’an to teach at a college, while Yu traveled 7,500 miles away to U.S., pursuing graduate studies. At a time where international phone calls were expensive, they wrote to each other and kept on sharing life through pen.
-
-		In the same university in Xi’an where Ren taught, she met Hao Song. In the same university in U.S. where Yu studied, she met John Morton. In 1990, Juer was born. In 1992, Jamie was born.
-</p>
-    </div></div>
-
-
-
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <img src="images/couple-1.jpg" style="width:60%; background-color: #000000;" >
-</div>
-
-<div class="mySlides fade">
-  <img src="images/couple-2.jpg" style="width:60%">
-</div>
-
-<div class="mySlides fade">
-  <img src="images/couple-3.jpg" style="width:60%">
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-</script>
-
- 
-
 
 	<div id="qbootstrap-story" data-section="story">
 	  <div class="container">
-	    <div class="row animate-box">
-	      <div class="col-md-8 col-md-offset-2">
-		<div class="col-md-12 text-center section-heading svg-sm-2">
-		  <center style="font-size:24px;font-style: bold;">A long, long time ago...</center
-		</div>
-	      </div>
-	    </div>
 	    <div class="row">
 	      <div class="col-md-12">
 		<ul class="timeline animate-box">
@@ -226,11 +99,11 @@ function showSlides() {
 			<span class="date">Fall 1979</span>
 		      </div>
 		      <div class="timeline-body">
-			<p>On September 1st, 1979, the Department of Physics of Nanjing University welcomed six girls. The six girls all lived in the same dorm, and as the only six girls in a class of fifty people, they were dubbed as the six flowers. Two of them - <b>Ren Cheng</b> and Yu Tong, soon became inseparable.
+			<p>On September 1st, 1979, the Department of Physics of Nanjing University welcomed fifty students. Of those there were only six girls. Two of them - <b>Ren Cheng</b> and <b>Yu Tong</b>, soon became inseparable. <br><br>
+				After graduation, the two best friends parted on different journeys. Ren became a college professor in <i>Xi’an</i>, while Yu traveled 11,563 miles away to the U.S., pursuing graduate studies. At a time where international phone calls were expensive, they continued sharing their lives through pen. <br><br>
+In the same university in Xi’an where Ren taught, she met <b>Hao Song</b>. In the same university in U.S. where Yu studied, she met <b>John Morton</b>. In 1990, <b>Juer</b> was born. In 1992, <b>Jamie</b> was born.
 
-After graduation, the two best friends parted on different journeys. Ren moved to Xi’an to teach at a college, while Yu traveled 7,500 miles away to U.S., pursuing graduate studies. At a time where international phone calls were expensive, they wrote to each other and kept on sharing life through pen.
-
-In the same university in Xi’an where Ren taught, she met Hao Song. In the same university in U.S. where Yu studied, she met John Morton. In 1990, Juer was born. In 1992, Jamie was born.</p>
+</p>
 		      </div>
 		    </div>
 		  </li>
@@ -241,10 +114,11 @@ In the same university in Xi’an where Ren taught, she met Hao Song. In the sam
 		      <div class="overlay overlay-2"></div>
 		      <div class="timeline-heading">
 			<h3 class="timeline-title">First Impression</h3>
-			<span class="date">June 18, 2007</span>
+			<span class="date">Spring, 1993</span>
 		      </div>
 		      <div class="timeline-body">
-			<p>In 1993, when Jamie was still a toddler, he was taken back to China for a short visit to Yu’s hometown. Ren, of course, took Juer to see her. The moment when Juer and Jamie first met was a total blur to both of them. Jamie couldn’t speak then, and Juer speaking no more than a few English words did not help either. Rumors were though, Jamie gave Juer a big hug.
+			<p>	When <b>Jamie</b> was still a toddler, he was taken back to China for a short visit to <b>Yu</b>’s hometown. <b>Ren</b>, of course, took <b>Juer</b> to see her. The moment when <b>Juer</b> and <b>Jamie</b> first met was a total blur to both of them. <b>Jamie</b> couldn’t speak then, and <b>Juer</b> speaking no more than a few English words did not help either. Rumors were though, <b>Jamie</b> gave <b>Juer</b> a big hug.
+
 
 			</p>
 		      </div>
@@ -257,12 +131,12 @@ In the same university in Xi’an where Ren taught, she met Hao Song. In the sam
 		    <div class="timeline-panel">
 		      <div class="overlay"></div>
 		      <div class="timeline-heading">
-			<h3 class="timeline-title">Keeping in touch</h3>
-			<span class="date">2013</span>
+			<h3 class="timeline-title">Second Impression</h3>
+			<span class="date">summer, 2007</span>
 		      </div>
 		      <div class="timeline-body">
 			<p>
-			  Flash forward fourteen years later, the two “childhood friends” met again in 2007, when Jamie traveled to China and Juer hosted him in Xi’an. Luckily, this time Jamie had learned to speak, so they talked on and on. But little did Juer know, Jamie had a deep crush on her.
+			  Flash forward fourteen years later, the two “childhood friends” met again in 2007, when <b>Jamie</b> traveled to China and <b>Juer</b> hosted him in <i>Xi’an</i>. Luckily, this time <b>Jamie</b> had learned to speak, so they talked on and on. But little did <b>Juer</b> know, <b>Jamie</b> had a deep crush on her.
 
 			</p>
 		      </div>
@@ -274,8 +148,8 @@ In the same university in Xi’an where Ren taught, she met Hao Song. In the sam
 		    <div class="timeline-panel">
 		      <div class="overlay overlay-2"></div>
 		      <div class="timeline-heading">
-			<h3 class="timeline-title">Second Chance</h3>
-			<span class="date">June 30, 2017</span>
+			<h3 class="timeline-title">Keep in Touch</h3>
+			<span class="date">2008 to 2015</span>
 		      </div>
 		      <div class="timeline-body">
 			<p>
@@ -291,11 +165,12 @@ In the same university in Xi’an where Ren taught, she met Hao Song. In the sam
 		    <div class="timeline-panel">
 		      <div class="overlay overlay-2"></div>
 		      <div class="timeline-heading">
-			<h3 class="timeline-title">We're Engaged</h3>
+			<h3 class="timeline-title"><i>Send</i>, and <i>Send</i></h3>
 			<span class="date">Dec 30, 2018</span>
 		      </div>
 		      <div class="timeline-body">
-			<p>Ten year later, Jamie, finishing his PhD. in San Diego, finally had the courage. He sent Juer an email, confessing his feelings. Juer, living a life in New York City, freaked out. She turned to her then colleague-slash-deskmate-turned-to-friend Yfran. Over beer, she confessed that she had the same feeling for Jamie but had to crush it because there were so many things in play: long-distance, family, and she was not sure if Jamie really knows her because she was always trying to behave when she was with Jamie. There were so many emotions that it was impossible to unpack in the email response. Juer asked Yfran to respond for her. Yfran saw the opportunity. He grabbed Juer’s phone, simply typed, Yes I’m interested, and clicked on the Send button. 
+			<p>Ten years later, <b>Jamie</b>, finishing his PhD. in San Diego, finally had the courage. He sent Juer an email, confessing his feelings. <b>Juer</b>, living a life in New York City, freaked out. She turned to her then colleague-slash-deskmate-turned-to-friend <b>Yfran</b>. Over beer, she confessed that she had the same feelings for Jamie, but there were too many emotions that it was impossible to unpack in an email response. <b>Juer</b> asked <b>Yfran</b> to respond for her. <b>Yfran</b> saw the opportunity. He grabbed <b>Juer</b>’s phone, simply typed, Yes I’m interested, and clicked on the <i>Send</i> button. <br><br> The rest is history.
+
 </p>
 		      </div>
 		    </div>
