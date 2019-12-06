@@ -45,7 +45,6 @@ h1, h2, h3, h4, h5, h6 {
 
   /*font-family: "Reenie Beanie", reenie-beanie;*/
   font-family: 'Cormorant Garamond', serif;
-
   font-weight: 900;
   font-size: 42px;
 
@@ -67,16 +66,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #qbootstrap-header {
-    /*This needs to fix the ordering the bullets*/
-    z-index: 99;
     position: absolute;
-    /* width: 100%; */
-    /*width: 50%;*/
-    opacity: 1;
-    top: 0;
-    right: 30%;
-    /* margin-top: 20px; */
-    margin-top: 1%;
+  z-index: 99;
+  width: 100%;
+  opacity: 1;
+  top: 0;
+  margin-top: 20px;
+
 }
 
 @media screen and (max-width: 768px) {
@@ -119,12 +115,15 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;
 }
 #qbootstrap-header #navbar li a {
-  font-family: "Source Sans Pro", Arial, sans-serif;
-  /* color: rgba(255, 255, 255, 0.5); */
+  /*font-family: "Source Sans Pro", Arial, sans-serif;*/
+  font-family: 'Montserrat', sans-serif;
+  /*color: rgba(255, 255, 255, 0.5); */
   /* son of a bitch!*/
-  font-family: 'Oranienbaum', serif;
-  color: #000000;
+  /*font-family: 'Oranienbaum', serif;*/
+  /*color: #fff;*/
+  color: #fff;
   position: relative;
+  font-size: 16px;
 }
 #qbootstrap-header #navbar li a span {
   position: relative;
@@ -152,7 +151,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 #qbootstrap-header #navbar li a:hover {
-  color: #000000;
+  color: rgba(228, 233, 237, 1);
 }
 #qbootstrap-header #navbar li a:hover span:before {
   visibility: visible;
@@ -165,7 +164,9 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-header #navbar li.active a {
   background: transparent;
   background: none;
-  color: #000000;
+  /*color: rgba(255, 255, 255, 0.5);*/
+  color: #fff;
+  font-size: 16px;
 }
 #qbootstrap-header #navbar li.active a span:before {
   visibility: visible;
@@ -191,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
 }
 #qbootstrap-header.navbar-fixed-top .navbar-brand {
-  color: #FF847C;
+  color: #fff;
 }
 #qbootstrap-header.navbar-fixed-top #navbar li a {
   color: rgba(0, 0, 0, 0.5);
@@ -202,6 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 #qbootstrap-header.navbar-fixed-top #navbar li a:hover {
   color: #FF847C;
 }
+
 #qbootstrap-header.navbar-fixed-top #navbar li.active a {
   background: transparent;
   background: none;
@@ -212,6 +214,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+
 #qbootstrap-header .navbar-default {
   border: transparent;
   background: transparent;
@@ -265,7 +268,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .section-heading h2 {
   font-size: 80px;
-  color: #FF847C;
+  font-size: 26px;
   display: block;
   padding-bottom: 20px;
   line-height: 1.5;
@@ -784,7 +787,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   content: " ";
   width: 1px;
-  border-right: 1px dashed rgba(255, 132, 124, 0.8);
+  border-right: 1px dashed #D3D3D3;
   left: 50%;
   margin-left: 0px;
 }
@@ -810,7 +813,7 @@ h1, h2, h3, h4, h5, h6 {
   clear: both;
 }
 .timeline > li > .timeline-panel {
-  width: 38%;
+  width: 40%;
   float: left;
   border: 1px solid rgba(0, 0, 0, 0.05);
   padding: 50px;
@@ -862,11 +865,11 @@ h1, h2, h3, h4, h5, h6 {
   left: 10px;
   right: 10px;
   content: '';
-  background: #f4f3e2;
+  background: #fff;
   z-index: -1;
 }
 .timeline > li > .timeline-panel .overlay.overlay-2 {
-  background: #fef6f8;
+  background: #fff;
 }
 .timeline > li > .timeline-badge {
   background-size: cover;
@@ -874,14 +877,14 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   position: relative;
   color: #fff;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   line-height: 50px;
   font-size: 1.4em;
   text-align: center;
   position: absolute;
   top: 0;
-  left: 50%;
+  left: 48%;
   margin-left: -100px;
   border: 10px solid #fff;
   z-index: 1;
@@ -915,26 +918,33 @@ h1, h2, h3, h4, h5, h6 {
 
 .timeline-title {
   margin-top: 0;
-  font-size: 34px;
-  color: #FF847C;
-  margin-bottom: 30px;
+  font-size: 26px;
+  color: rgba(46, 49, 49, 1);
+  margin-bottom: 20px;
 }
 
 .date {
   display: block;
-  margin-bottom: 20px;
-  font-size: 13px;
+  margin-bottom: 10px;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  color: rgba(46, 49, 49, 1);
 }
 
 .timeline-body > p,
 .timeline-body > ul {
     margin-bottom: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #696969;
 }
 
 .timeline-body > p + p {
-  margin-top: 5px;
+    margin-top: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px
+    color: #696969;
 }
 
 @media (max-width: 992px) {
@@ -1101,7 +1111,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #qbootstrap-testimonials .arrow-thumb a {
   font-size: 32px;
-  color: #dadada;
+  color: rgba(46, 49, 49, 1);
 }
 #qbootstrap-testimonials .arrow-thumb a:hover, #qbootstrap-testimonials .arrow-thumb a:focus, #qbootstrap-testimonials .arrow-thumb a:active {
   text-decoration: none;
@@ -1166,14 +1176,15 @@ h1, h2, h3, h4, h5, h6 {
   left: 10px;
   right: 10px;
   content: '';
-  background: #f4f3e2;
+  background: #fff;
   z-index: -1;
 }
 .wedding-events .desc h3 {
-  font-size: 40px;
-  color: #FF847C;
   display: block;
-  margin-bottom: 40px;
+  margin-top: 0;
+  font-size: 26px;
+  color: rgba(46, 49, 49, 1);
+  margin-bottom: 30px;
 }
 .wedding-events .desc .date {
   display: block;
@@ -1181,7 +1192,8 @@ h1, h2, h3, h4, h5, h6 {
 .wedding-events .desc .date span {
   display: block;
   font-size: 16px;
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(46, 49, 49, 1);
+  margin-bottom: 10px;
 }
 .wedding-events .desc .icon-tip {
   position: relative;
@@ -1198,7 +1210,7 @@ h1, h2, h3, h4, h5, h6 {
 .wedding-events .desc .icon i {
   color: #fff;
   padding: 15px;
-  background: #FF847C;
+  background: #696969;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1553,7 +1565,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #FF847C;
+  background: #696969;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
