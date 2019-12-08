@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
   }
   #qbootstrap-header .navbar-brand {
-      color: #FF847C !important;
+      color: rgba(0, 0, 0, 0.1)!important;
   }
   #qbootstrap-header #navbar li a {
     color: rgba(0, 0, 0, 0.5) !important;
@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.3s;
   }
   #qbootstrap-header #navbar li a:hover {
-    color: #FF847C !important;
+    color:rgba(0, 0, 0, 0.5) !important;
   }
   #qbootstrap-header #navbar li a span:before {
     background: transparent !important;
@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
   #qbootstrap-header #navbar li.active a {
     background: transparent;
     background: none;
-    color: #FF847C !important;
+    color: rgba(0, 0, 0, 0.1) !important;
   }
   #qbootstrap-header #navbar li.active a span:before {
     visibility: visible;
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #FF847C;
+  background-color: rgba(0, 0, 0, 0.2);
   visibility: hidden;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
@@ -336,12 +336,13 @@ h1, h2, h3, h4, h5, h6 {
 .qbootstrap-overlay {
   position: absolute !important;
   width: 100%;
+  height: 1000px;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .qbootstrap-cover,
